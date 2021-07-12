@@ -1,0 +1,92 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.container{
+  margin: auto;
+  padding: 70px;
+  margin-top: 20px;
+  width: 650px;
+  text-align: center;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.text{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  color: #48fb47;
+  font-size: 20px;
+}
+
+.logo{
+  max-width: 160px;
+}
+
+nav{
+  background-color: #39ff14;
+  padding: 4px;
+}
+
+button{
+  font-size: 8px;
+  font-weight: 600;
+  vertical-align: middle;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+main{
+  text-align: left;
+  color: white;
+  font-size: 10px;
+}
+
+.monopattino{
+  padding-top: 15px;
+}
+
+input {
+    transform: scale(0.7);
+    display: inline;
+    vertical-align: bottom;
+    margin-left: 0;
+}
+
+h2{
+  display: inline;
+ }
+
+
+p{
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.charge{
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.low{
+  background-color: #cf2e26;
+  width: 100px;
+  color: #cf2e26;
+}
+
+.medium{
+  background-color: #ffb870;
+  width: 230px;
+  color: #ffb870;
+}
+
+.high{
+  background-color: #39ff18;
+  width: 400px;
+  color: #39ff18;
+}
